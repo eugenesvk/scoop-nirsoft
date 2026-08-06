@@ -1,0 +1,26 @@
+name: Update Scoop bucket
+
+on:
+  schedule:
+    - cron: '0 23 * * *'                     # every 23h
+  workflow_dispatch: # run manually
+    branches       : ["main"]
+  workflow_call    : # can be called by another workflow
+  push             : # automatically on any tag
+    tags           :
+      - '*'
+
+jobs:
+  excavate:
+    name   : Excavate
+    runs-on: windows-latest
+    steps  : # commit to avoid security issues since tags can be changed
+    - uses : actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 #v6.0.1 25-12
+    - name : Excavate
+      uses : ScoopInstaller/GithubActions@797d33021c0fbd52be705ce8136d9d62c5b41782 #git 25-11
+      env  :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # SCOOP_REPO  : https://github.com/eugenesvk/scoop-nirsoft #scoop config 'scoop_repo' will be configured and scoop updated
+        SCOOP_BRANCH: main
+        SKIP_UPDATED: '1' # log of checkver utility will not print latest versions
+        THROW_ERROR : '1' # error from checkver utility will be thrown as exception and cause the run to fail
