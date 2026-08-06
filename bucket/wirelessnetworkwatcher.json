@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.nirsoft.net/utils/wireless_network_watcher.html",
     "checkver": "Wireless Network Watcher v(\\d+\\.\\d\\d)",
-    "version": "2.41",
+    "version": "2.45",
     "license": "freeware",
     "description": "Wireless Network Watcher is a small utility that scans your wireless network and displays the list of all computers and devices that are currently connected to your network. For every computer or device that is connected to your network, the following information is displayed: IP address, MAC address, the company that manufactured the network card, and optionally the computer name. You can also export the connected devices list into html/xml/csv/text file, or copy the list to the clipboard and then paste into Excel or other spreadsheet application.",
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/wnetwatcher-x64.zip",
-            "hash": "521c7d7a46cf778ed0fea23fd4dda5f4cdd861dea16511583433c0c4ed9be837"
+            "hash": "23429f2a7feba85dcce8ddb770f04c506d1eeaebc86855a78b66c1d1f5a050a4"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/wnetwatcher.zip",
-            "hash": "2165a3acdd2c3625eade071ec0b3c5a77772cffbb6e0d23bc563db06f70efb8a"
+            "hash": "9e4382edf91569b3751ff4d87f06f5ab5eb89976153c75ca0ec74d7572341bf9"
         }
     },
     "autoupdate": {
