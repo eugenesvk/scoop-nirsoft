@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.nirsoft.net/utils/control_my_monitor.html",
     "checkver": "ControlMyMonitor v(\\d+\\.\\d\\d)",
-    "version": "1.42",
+    "version": "1.43",
     "license": "freeware",
     "description": "ControlMyMonitor allows you view and modify the settings of your monitor (Also known as 'VCP Features'), like brightness, contrast, sharpness, red/green/blue color balance, and more... You can modify the monitor settings from the GUI and from command-line. You can also export all settings of your monitor into a configuration file and then later load the same configuration back into your monitor.",
     "url": "https://www.nirsoft.net/utils/controlmymonitor.zip",
-    "hash": "da90da11e6acaaeb85df42ad9a15d15422418a8d6900fa1069004aae505c8628",
+    "hash": "4b0efc84e851f07d8323adb93718cdbe679075e34211b19e32e7ed5d2f942e67",
     "autoupdate": {
         "url": "https://www.nirsoft.net/utils/controlmymonitor.zip"
     },
