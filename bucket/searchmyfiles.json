@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.nirsoft.net/utils/search_my_files.html",
     "checkver": "SearchMyFiles v(\\d+\\.\\d\\d)",
-    "version": "3.35",
+    "version": "3.36",
     "license": "freeware",
     "description": "SearchMyFiles is an alternative to the standard \"Search For Files And Folders\" module of Windows. It allows you to easily search files in your system by wildcard, by last modified/created/last accessed time, by file attributes, by file content (text or binary search), and by the file size. SearchMyFiles allows you to make a very accurate search that cannot be done with Windows search. For Example: You can search all files created in the last 10 minutes with size between 500 and 700 bytes. After you made a search, you can select one or more files, and save the list into text/html/csv/xml file, or copy the list to the clipboard. SearchMyFiles is portable, and you can use it from a USB flash drive without leaving traces in the Registry of the scanned computer.",
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/searchmyfiles-x64.zip",
-            "hash": "f29ea7c66c8ed2af1069ec6209b587fde6205244df9c91cde8aa8e30db97f81a"
+            "hash": "2090e93a52d2c66a9417fb7426b77832806f0029ba9adfbf99107ee152ddad89"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/searchmyfiles.zip",
-            "hash": "aa05b725e6c3c32f6c9d35bd55025ce07ae30a2e4bc12d2115f45b2bc8f54a36"
+            "hash": "a5e88a863d123213e4607d2c3de1efec5555a496ce20d6f56d5a27f45715e301"
         }
     },
     "autoupdate": {
