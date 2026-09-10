@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.nirsoft.net/utils/dns_lookup_view.html",
     "checkver": "DNSLookupView v(\\d+\\.\\d\\d)",
-    "version": "1.18",
+    "version": "1.20",
     "license": "freeware",
     "description": "DNSLookupView is a DNS tracing tool for Windows 11/10 that allows you to view the details of every DNS query sent through the DNS Client service of Windows. For every DNS query, the following information is displayed: Host Name, Query Type (A, AAAA, and so on), Query Status (Error or succeeded), Query Result, Query Timestamp, ID and name of the process that requested the DNS lookup.",
     "url": "https://www.nirsoft.net/utils/dnslookupview.zip",
-    "hash": "4a111f348a2f0b5efe88f0cdf407b39fde34d14d726cec33642f57d7f70c29c9",
+    "hash": "5e19d3272f784d68df973114ebb87e09e234579b0ba4a53bdbe3806b449f5c29",
     "autoupdate": {
         "url": "https://www.nirsoft.net/utils/dnslookupview.zip"
     },
