@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.nirsoft.net/utils/process_tcp_summary.html",
     "checkver": "ProcessTCPSummary v(\\d+\\.\\d\\d)",
-    "version": "1.25",
+    "version": "1.26",
     "license": "freeware",
     "description": "ProcessTCPSummary is a simple tool for Windows that displays a summary of all process that have TCP connections or listening UDP ports. For every process, this tool displays the total number of TCP connections, number of TCP connections for each status (Established, Listening, Syn-Sent, Syn-Received...), number of IPv4 TCP connections, number of IPv6 TCP connections, common port numbers, and more... If you run ProcessTCPSummary as Administrator, you can also watch the number of TCP/UDP bytes sent and received by every process as well as the current send/receive speed.",
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/processtcpsummary-x64.zip",
-            "hash": "0062ff9958bec59528909a9dd1753b0e1a1d8fd9901b3b9f7f23a47bf8032fe7"
+            "hash": "dd6a589873e99956361db6ebde352963debb14155a4bd0152d71a5556998dd23"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/processtcpsummary.zip",
-            "hash": "bd7d73c89b553ad2188eb26441ec761af299df586a96273ff6225adad790a5b8"
+            "hash": "0c439b4fb96ca89e10d728ca57991243916a8ef0016653505cece15e69a1a9aa"
         }
     },
     "autoupdate": {
